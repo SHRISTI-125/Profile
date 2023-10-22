@@ -1,0 +1,183 @@
+.navbar {
+    height: 34%; 
+    width: 119px; 
+    position:absolute; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: navy; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+.navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #0196fa;
+  display: block;
+}
+
+.navbar a:hover {
+  color: #8feafc;
+}
+.heading{
+    font: 1.9em sans-serif;
+}
+.id1{
+    margin: -8px;
+    padding: 5px;
+    height: 720px;
+}
+#about{
+  background-color: rgb(235, 235, 255);
+  background: url("https://getwallpapers.com/wallpaper/full/8/6/c/432145.jpg");
+  color: rgb(234, 234, 234);
+    margin: -8px;
+    font: 1.1em sans-serif;
+    margin-left: -8px;
+    padding: 12px;
+    padding-left: 119px;
+    height: 728px; 
+    text-align: left;
+}
+.about img {
+  height: 135px;
+  width:  150px;
+}
+
+
+#educations-section{
+    
+  position:relative;
+  text-decoration: aliceblue;
+}
+#educations-section::before{
+  content:"";
+  position:absolute;
+  background:whitesmoke;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+#educationss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: aqua;
+  text-align: center;
+  background: whitesmoke;
+}
+.educations-item{
+  padding: 34px;
+  text-decoration: aliceblue;
+}
+
+#divOne{
+  display: block;
+  align-items: center;
+  padding: 10px;
+  margin: 0px;
+  background: url("https://getwallpapers.com/wallpaper/full/6/b/d/432076.jpg");
+}
+
+.thOne{
+  background-color: rgb(197, 197, 251);
+  padding: 10px;
+  border-radius: 2%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.thTwo{
+  background-color: rgb(249, 194, 249);
+  padding: 10px;
+  opacity: 0.9;
+}
+.thThree{
+  background-color: rgb(231, 232, 165);
+  padding: 10px;
+  opacity: 0.9;
+}
+.thFour{
+  background-color: rgb(135, 248, 169);
+  padding: 10px;
+  opacity: 0.9;
+}
+.thFive{
+  background-color: rgb(247, 185, 141);
+  padding: 10px;
+  opacity: 0.9;
+}
+.th6{
+  background-color: rgb(196, 165, 232);
+  padding: 10px;
+  opacity: 0.9;
+}
+.th7{
+  background-color: rgb(254, 189, 189);
+  padding: 10px; 
+  opacity: 0.9;
+}
+
+#divTwo{
+  display: flex;
+  padding: 10px;
+  margin: 0px;
+}
+.th8{
+  background-color: rgb(189, 191, 254);
+  padding: 20px; 
+  margin: 10px;
+}
+.th9{
+  background-color: rgb(254, 246, 219);
+  padding: 10px; 
+  margin: 10px;
+}
+
+#project{
+  margin: 34px;
+  display: flex;
+}
+
+#project .box{
+  border: 2px solid rgb(255, 227, 227);
+  padding: 34px;
+  margin: 3px 20px;
+  border-radius: 25px;
+  background-color: rgb(250, 210, 248);
+}
+#project .box img{
+  height: 130px;
+  width: 120px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#project .box p{
+  font-size: 1.3rem;
+}
+
+.btn{
+  padding: 6px 20px;
+  border: 2px solid rgb(179, 220, 245);
+  background-color: rgb(2, 74, 113);
+  color: rgba(214, 233, 248, 0.867);
+  margin: 17px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+}
+.contact{
+  background-color: rgb(43, 42, 42);
+}
+footer{
+  background-color: rgb(14, 0, 13);
+  color: rgb(247, 232, 248);
+  padding: 10px 15px;
+  text-align: center;
+
+}

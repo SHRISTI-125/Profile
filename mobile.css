@@ -1,0 +1,39 @@
+
+#educationss{
+    flex-wrap: wrap;
+    font: 1em sans-serif;
+}
+
+#about{
+    height: 700px;
+    padding: 0px 5px 18px 121px;
+    
+}
+#about::before{
+    height: 400px;
+}
+#about p{
+    font-size: 12px;
+}
+
+#about{
+    flex-wrap: wrap;
+    
+}
+#about img{
+    width: 100px;
+    padding: 2px 6px;
+    height: auto;
+}
+
+#project{
+    flex-direction: column;
+
+}
+#project.box{
+    padding: 14px;
+    margin: 2px 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background: white;
+}
