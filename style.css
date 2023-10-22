@@ -142,11 +142,11 @@
 }
 
 #project .box{
-  border: 2px solid rgb(255, 227, 227);
+  border: 2px solid rgb(219, 241, 254);
   padding: 34px;
   margin: 3px 20px;
   border-radius: 25px;
-  background-color: rgb(250, 210, 248);
+  background-color: rgb(210, 229, 250);
 }
 #project .box img{
   height: 130px;
